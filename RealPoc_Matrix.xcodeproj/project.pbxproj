@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EB1FCA8161D5A3400B13380 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB1FCA7161D5A3400B13380 /* QuartzCore.framework */; };
+		2EB1FCAB161D5A7600B13380 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB1FCAA161D5A7600B13380 /* Quartz.framework */; };
+		2ECAC82D1612F27D003FBA61 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ECAC82C1612F27D003FBA61 /* Cocoa.framework */; };
+		2ECAC82F1612F27D003FBA61 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ECAC82E1612F27D003FBA61 /* ScreenSaver.framework */; };
+		2ECAC8391612F27D003FBA61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2ECAC8371612F27D003FBA61 /* InfoPlist.strings */; };
+		2ECAC83D1612F27D003FBA61 /* RealPoc_MatrixView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECAC83C1612F27D003FBA61 /* RealPoc_MatrixView.m */; };
+		2ECAC84F1612FBDD003FBA61 /* SymbolAlive.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ECAC84D1612FBDD003FBA61 /* SymbolAlive.h */; };
+		2ECAC8501612FBDD003FBA61 /* SymbolAlive.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECAC84E1612FBDD003FBA61 /* SymbolAlive.m */; };
+		5502446217118DA10053A0B2 /* RealPoc_Matrix.saver in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2ECAC8291612F27D003FBA61 /* RealPoc_Matrix.saver */; };
+		55110136171197CD00F893DA /* matrixF.otf in Resources */ = {isa = PBXBuildFile; fileRef = 55110135171197CD00F893DA /* matrixF.otf */; };
+		55110137171197D100F893DA /* matrixF.otf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 55110135171197CD00F893DA /* matrixF.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5502446117118D730053A0B2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "~/Library/Screen Savers/";
+			dstSubfolderSpec = 0;
+			files = (
+				5502446217118DA10053A0B2 /* RealPoc_Matrix.saver in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55110133171194F000F893DA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Fonts;
+			dstSubfolderSpec = 7;
+			files = (
+				55110137171197D100F893DA /* matrixF.otf in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2EB1FCA7161D5A3400B13380 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2EB1FCAA161D5A7600B13380 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		2ECAC8291612F27D003FBA61 /* RealPoc_Matrix.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealPoc_Matrix.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ECAC82C1612F27D003FBA61 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2ECAC82E1612F27D003FBA61 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		2ECAC8311612F27D003FBA61 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2ECAC8321612F27D003FBA61 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2ECAC8331612F27D003FBA61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2ECAC8361612F27D003FBA61 /* RealPoc_Matrix-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RealPoc_Matrix-Info.plist"; sourceTree = "<group>"; };
+		2ECAC8381612F27D003FBA61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2ECAC83A1612F27D003FBA61 /* RealPoc_Matrix-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RealPoc_Matrix-Prefix.pch"; sourceTree = "<group>"; };
+		2ECAC83B1612F27D003FBA61 /* RealPoc_MatrixView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealPoc_MatrixView.h; sourceTree = "<group>"; };
+		2ECAC83C1612F27D003FBA61 /* RealPoc_MatrixView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealPoc_MatrixView.m; sourceTree = "<group>"; };
+		2ECAC84D1612FBDD003FBA61 /* SymbolAlive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SymbolAlive.h; sourceTree = "<group>"; };
+		2ECAC84E1612FBDD003FBA61 /* SymbolAlive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SymbolAlive.m; sourceTree = "<group>"; };
+		5502446417118FD10053A0B2 /* autoupdate.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = autoupdate.sh; sourceTree = "<group>"; };
+		55110135171197CD00F893DA /* matrixF.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = matrixF.otf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2ECAC8241612F27C003FBA61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB1FCAB161D5A7600B13380 /* Quartz.framework in Frameworks */,
+				2EB1FCA8161D5A3400B13380 /* QuartzCore.framework in Frameworks */,
+				2ECAC82D1612F27D003FBA61 /* Cocoa.framework in Frameworks */,
+				2ECAC82F1612F27D003FBA61 /* ScreenSaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ECAC81C1612F27C003FBA61 = {
+			isa = PBXGroup;
+			children = (
+				5502446417118FD10053A0B2 /* autoupdate.sh */,
+				2ECAC8341612F27D003FBA61 /* RealPoc_Matrix */,
+				2ECAC82B1612F27D003FBA61 /* Frameworks */,
+				2ECAC82A1612F27D003FBA61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2ECAC82A1612F27D003FBA61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ECAC8291612F27D003FBA61 /* RealPoc_Matrix.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2ECAC82B1612F27D003FBA61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EB1FCAA161D5A7600B13380 /* Quartz.framework */,
+				2EB1FCA7161D5A3400B13380 /* QuartzCore.framework */,
+				2ECAC82C1612F27D003FBA61 /* Cocoa.framework */,
+				2ECAC82E1612F27D003FBA61 /* ScreenSaver.framework */,
+				2ECAC8301612F27D003FBA61 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2ECAC8301612F27D003FBA61 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2ECAC8311612F27D003FBA61 /* AppKit.framework */,
+				2ECAC8321612F27D003FBA61 /* CoreData.framework */,
+				2ECAC8331612F27D003FBA61 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2ECAC8341612F27D003FBA61 /* RealPoc_Matrix */ = {
+			isa = PBXGroup;
+			children = (
+				78FD03F8171182C2009B01F1 /* Fonts */,
+				2ECAC84D1612FBDD003FBA61 /* SymbolAlive.h */,
+				2ECAC84E1612FBDD003FBA61 /* SymbolAlive.m */,
+				2ECAC83B1612F27D003FBA61 /* RealPoc_MatrixView.h */,
+				2ECAC83C1612F27D003FBA61 /* RealPoc_MatrixView.m */,
+				2ECAC8351612F27D003FBA61 /* Supporting Files */,
+			);
+			path = RealPoc_Matrix;
+			sourceTree = "<group>";
+		};
+		2ECAC8351612F27D003FBA61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2ECAC8361612F27D003FBA61 /* RealPoc_Matrix-Info.plist */,
+				2ECAC8371612F27D003FBA61 /* InfoPlist.strings */,
+				2ECAC83A1612F27D003FBA61 /* RealPoc_Matrix-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78FD03F8171182C2009B01F1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				55110135171197CD00F893DA /* matrixF.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2ECAC8251612F27C003FBA61 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECAC84F1612FBDD003FBA61 /* SymbolAlive.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2ECAC8281612F27C003FBA61 /* RealPoc_Matrix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ECAC8401612F27D003FBA61 /* Build configuration list for PBXNativeTarget "RealPoc_Matrix" */;
+			buildPhases = (
+				2ECAC8231612F27C003FBA61 /* Sources */,
+				2ECAC8241612F27C003FBA61 /* Frameworks */,
+				2ECAC8251612F27C003FBA61 /* Headers */,
+				2ECAC8261612F27C003FBA61 /* Resources */,
+				55110133171194F000F893DA /* CopyFiles */,
+				2ECAC8271612F27C003FBA61 /* Rez */,
+				5502446117118D730053A0B2 /* CopyFiles */,
+				5502446617118FD70053A0B2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealPoc_Matrix;
+			productName = RealPoc_Matrix;
+			productReference = 2ECAC8291612F27D003FBA61 /* RealPoc_Matrix.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2ECAC81E1612F27C003FBA61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Rafael Kayumov";
+			};
+			buildConfigurationList = 2ECAC8211612F27C003FBA61 /* Build configuration list for PBXProject "RealPoc_Matrix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2ECAC81C1612F27C003FBA61;
+			productRefGroup = 2ECAC82A1612F27D003FBA61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2ECAC8281612F27C003FBA61 /* RealPoc_Matrix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2ECAC8261612F27C003FBA61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECAC8391612F27D003FBA61 /* InfoPlist.strings in Resources */,
+				55110136171197CD00F893DA /* matrixF.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		2ECAC8271612F27C003FBA61 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5502446617118FD70053A0B2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh autoupdate.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2ECAC8231612F27C003FBA61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECAC83D1612F27D003FBA61 /* RealPoc_MatrixView.m in Sources */,
+				2ECAC8501612FBDD003FBA61 /* SymbolAlive.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2ECAC8371612F27D003FBA61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ECAC8381612F27D003FBA61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2ECAC83E1612F27D003FBA61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2ECAC83F1612F27D003FBA61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2ECAC8411612F27D003FBA61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RealPoc_Matrix/RealPoc_Matrix-Prefix.pch";
+				INFOPLIST_FILE = "RealPoc_Matrix/RealPoc_Matrix-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		2ECAC8421612F27D003FBA61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RealPoc_Matrix/RealPoc_Matrix-Prefix.pch";
+				INFOPLIST_FILE = "RealPoc_Matrix/RealPoc_Matrix-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2ECAC8211612F27C003FBA61 /* Build configuration list for PBXProject "RealPoc_Matrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ECAC83E1612F27D003FBA61 /* Debug */,
+				2ECAC83F1612F27D003FBA61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ECAC8401612F27D003FBA61 /* Build configuration list for PBXNativeTarget "RealPoc_Matrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ECAC8411612F27D003FBA61 /* Debug */,
+				2ECAC8421612F27D003FBA61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2ECAC81E1612F27C003FBA61 /* Project object */;
+}
